@@ -1,0 +1,22 @@
+{
+  "name": "todo-app",
+  "version": "0.0.0",
+  "description": "Simple todo application.",
+  "main": "server.js",
+  "author": "tamnguyen",
+  "scripts": {
+    "start": "node serve.js",
+    "dev": "nodemon serve.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "~1.14.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "method-override": "~2.3.5",
+    "mongodb": "^3.6.4",
+    "mongoose": "^5.11.18",
+    "morgan": "~1.6.1",
+    "nodemon": "^2.0.7"
+  }
+}
